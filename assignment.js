@@ -1,4 +1,4 @@
-01 KilometerToMeter Problem Solving
+// 01 KilometerToMeter Problem Solving
 
         function kilometerToMeter(kilometer){
             var meter = kilometer * 1000;
@@ -7,6 +7,7 @@
             var DhakaToCTG = kilometerToMeter(1);
 
         //    console Output
+
             console.log(DhakaToCtg)
        
 
@@ -22,9 +23,11 @@
     var budgetPrice = budgetCalculator(1,1,1);
 
     // console output
+
     console.log(budgetPrice)
 
 // 03 hotelCost Problem Solving
+
     function hotelCost(dayStay){
         var cost = 0;
         if(dayStay <= 10){
@@ -52,6 +55,7 @@
            console.log(totalCost)
 
 // 04 megaFriend Problem Solving
+
     function megaFriend(names){
         var longestName = "";
         for (var i =0; i <names.length; i++){
